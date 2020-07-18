@@ -285,6 +285,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 				if(!brain.decoy_override)//"Just keep it if it's fake" - confucius, probably
 					brain.Remove(C,TRUE, TRUE) //brain argument used so it doesn't cause any... sudden death.
 					QDEL_NULL(brain)
+					oldorgan = null
 			oldorgan.Remove(C,TRUE)
 			QDEL_NULL(oldorgan)
 
